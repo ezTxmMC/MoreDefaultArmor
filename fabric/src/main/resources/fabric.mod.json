@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "moredefaultarmor",
+  "version": "${version}",
+  "name": "MoreDefaultArmor",
+  "description": "This mod adds much more armor from standard materials",
+  "authors": [
+    "ezTxmMC",
+    "DekayPlay"
+  ],
+  "contact": {
+    "website": "https://eztxm.de",
+    "repo": "https://github.com/ezTxmMC/MoreDefaultArmor"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.eztxm.moredefaultarmor.MoreDefaultArmor"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

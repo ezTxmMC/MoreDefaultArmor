@@ -1,8 +1,8 @@
-package dev.eztxm.moredefaultarmor;
+package de.eztxm.moredefaultarmor;
 
-import dev.eztxm.moredefaultarmor.item.ModItemTabs;
-import dev.eztxm.moredefaultarmor.item.ModItems;
-import dev.eztxm.moredefaultarmor.util.UpdateChecker;
+import de.eztxm.moredefaultarmor.item.ModItemTabs;
+import de.eztxm.moredefaultarmor.item.ModItems;
+import de.eztxm.moredefaultarmor.util.UpdateChecker;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents;
 import net.fabricmc.loader.api.FabricLoader;

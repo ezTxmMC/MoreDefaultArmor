@@ -1,4 +1,4 @@
-package dev.eztxm.moredefaultarmor.util;
+package de.eztxm.moredefaultarmor.util;
 
 public enum ModMaterial {
 

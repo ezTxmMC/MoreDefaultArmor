@@ -16,7 +16,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.eztxm.moredefaultarmor.MoreDefaultArmor"
+      "de.eztxm.moredefaultarmor.MoreDefaultArmor"
     ]
   },
   "depends": {

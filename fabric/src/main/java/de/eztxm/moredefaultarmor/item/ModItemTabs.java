@@ -1,6 +1,6 @@
-package dev.eztxm.moredefaultarmor.item;
+package de.eztxm.moredefaultarmor.item;
 
-import dev.eztxm.moredefaultarmor.MoreDefaultArmor;
+import de.eztxm.moredefaultarmor.MoreDefaultArmor;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;

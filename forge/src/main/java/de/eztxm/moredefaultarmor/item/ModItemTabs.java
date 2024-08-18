@@ -1,6 +1,6 @@
-package dev.dekay.moredefaultarmor.item;
+package de.eztxm.moredefaultarmor.item;
 
-import dev.dekay.moredefaultarmor.MoreDefaultArmor;
+import de.eztxm.moredefaultarmor.MoreDefaultArmor;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

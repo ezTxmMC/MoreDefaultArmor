@@ -1,8 +1,8 @@
-package dev.dekay.moredefaultarmor.armor;
+package de.eztxm.moredefaultarmor.armor;
 
-import dev.dekay.moredefaultarmor.MoreDefaultArmor;
-import dev.dekay.moredefaultarmor.util.LazyValue;
-import dev.dekay.moredefaultarmor.util.ModMaterial;
+import de.eztxm.moredefaultarmor.MoreDefaultArmor;
+import de.eztxm.moredefaultarmor.util.LazyValue;
+import de.eztxm.moredefaultarmor.util.ModMaterial;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ArmorItem;

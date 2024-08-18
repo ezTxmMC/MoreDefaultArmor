@@ -1,7 +1,7 @@
-package dev.dekay.moredefaultarmor.item;
+package de.eztxm.moredefaultarmor.item;
 
-import dev.dekay.moredefaultarmor.MoreDefaultArmor;
-import dev.dekay.moredefaultarmor.armor.ModArmorTiers;
+import de.eztxm.moredefaultarmor.MoreDefaultArmor;
+import de.eztxm.moredefaultarmor.armor.ModArmorTiers;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;

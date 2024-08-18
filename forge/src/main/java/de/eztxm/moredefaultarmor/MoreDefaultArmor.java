@@ -1,8 +1,8 @@
-package dev.dekay.moredefaultarmor;
+package de.eztxm.moredefaultarmor;
 
 import com.mojang.logging.LogUtils;
-import dev.dekay.moredefaultarmor.item.ModItemTabs;
-import dev.dekay.moredefaultarmor.item.ModItems;
+import de.eztxm.moredefaultarmor.item.ModItemTabs;
+import de.eztxm.moredefaultarmor.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;

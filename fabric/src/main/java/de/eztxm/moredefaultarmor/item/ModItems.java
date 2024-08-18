@@ -2,6 +2,7 @@ package de.eztxm.moredefaultarmor.item;
 
 import de.eztxm.moredefaultarmor.MoreDefaultArmor;
 import de.eztxm.moredefaultarmor.armor.ModArmorTiers;
+import dev.eztxm.moredefaultarmor.armor.*;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;

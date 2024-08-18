@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobbled_deepslate"
+      "item": "minecraft:crimson_nylium"
     }
   },
   "result": {
-    "item": "moredefaultarmor:deepslate_cobbled_leggings"
+    "item": "moredefaultarmor:nylium_leggings"
   }
 }

@@ -2,15 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    "# #",
     "# #"
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobbled_deepslate"
+      "item": "minecraft:nether_quartz_ore"
     }
   },
   "result": {
-    "item": "moredefaultarmor:deepslate_cobbled_leggings"
+    "item": "moredefaultarmor:nether_quartz_helmet"
   }
 }

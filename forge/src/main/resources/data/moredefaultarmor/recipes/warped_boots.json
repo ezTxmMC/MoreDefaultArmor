@@ -1,16 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "###",
     "# #",
     "# #"
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobbled_deepslate"
+      "item": "minecraft:warped_nylium"
     }
   },
   "result": {
-    "item": "moredefaultarmor:deepslate_cobbled_leggings"
+    "item": "moredefaultarmor:warped_boots"
   }
 }

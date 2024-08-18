@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobbled_deepslate"
+      "item": "minecraft:nether_bricks"
     }
   },
   "result": {
-    "item": "moredefaultarmor:deepslate_cobbled_leggings"
+    "item": "moredefaultarmor:nether_brick_leggings"
   }
 }

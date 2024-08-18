@@ -17,4 +17,4 @@ pluginManagement {
 }
 
 rootProject.name = "MoreDefaultArmor-${minecraft_version}"
-include("Fabric", "Forge")
+include("fabric", "forge")

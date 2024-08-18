@@ -12,7 +12,7 @@ public enum ModMaterial {
     SMOOTH_BASALT(2, 4, 4, 2, 0, 0, 0),
     NYLIUM(1, 2, 2, 1, 0, 0, 0),
     NETHER_WART(1, 2, 2, 1, 0, 0, 0),
-    NETHER_BRICK(1, 3, 2,1,0,0,0),
+    NETHER_BRICKS(1, 3, 2,1,0,0,0),
     WARPED(1, 2, 2, 1, 0, 0, 0),
     NETHER_QUARTZ(1,3,2,1,0,0,0),
     BLACKSTONE(2,4,3,2,0,0,0),

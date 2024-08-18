@@ -81,10 +81,15 @@ public class ModItemTabs {
                     entries.add(ModItems.NETHER_WART_LEGGINGS);
                     entries.add(ModItems.NETHER_WART_BOOTS);
 
-                    entries.add(ModItems.NETHER_BRICK_HELMET);
-                    entries.add(ModItems.NETHER_BRICK_CHESTPLATE);
-                    entries.add(ModItems.NETHER_BRICK_LEGGINGS);
-                    entries.add(ModItems.NETHER_BRICK_BOOTS);
+                    entries.add(ModItems.NETHER_BRICKS_HELMET);
+                    entries.add(ModItems.NETHER_BRICKS_CHESTPLATE);
+                    entries.add(ModItems.NETHER_BRICKS_LEGGINGS);
+                    entries.add(ModItems.NETHER_BRICKS_BOOTS);
+
+                    entries.add(ModItems.RED_NETHER_BRICKS_HELMET);
+                    entries.add(ModItems.RED_NETHER_BRICKS_CHESTPLATE);
+                    entries.add(ModItems.RED_NETHER_BRICKS_LEGGINGS);
+                    entries.add(ModItems.RED_NETHER_BRICKS_BOOTS);
 
                     entries.add(ModItems.WARPED_HELMET);
                     entries.add(ModItems.WARPED_CHESTPLATE);

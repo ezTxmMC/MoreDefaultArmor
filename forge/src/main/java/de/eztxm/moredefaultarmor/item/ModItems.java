@@ -63,10 +63,15 @@ public class ModItems {
     private final RegistryObject<Item> netherWartLeggings;
     private final RegistryObject<Item> netherWartBoots;
 
-    private final RegistryObject<Item> netherBrickHelmet;
-    private final RegistryObject<Item> netherBrickChestplate;
-    private final RegistryObject<Item> netherBrickLeggings;
-    private final RegistryObject<Item> netherBrickBoots;
+    private final RegistryObject<Item> netherBricksHelmet;
+    private final RegistryObject<Item> netherBricksChestplate;
+    private final RegistryObject<Item> netherBricksLeggings;
+    private final RegistryObject<Item> netherBricksBoots;
+
+    private final RegistryObject<Item> redNetherBricksHelmet;
+    private final RegistryObject<Item> redNetherBricksChestplate;
+    private final RegistryObject<Item> redNetherBricksLeggings;
+    private final RegistryObject<Item> redNetherBricksBoots;
 
     private final RegistryObject<Item> warpedHelmet;
     private final RegistryObject<Item> warpedChestplate;
@@ -150,10 +155,15 @@ public class ModItems {
         this.netherWartLeggings = ITEMS.register("nether_wart_leggings", () -> new ArmorItem(ModArmorTiers.NETHER_WART, ArmorItem.Type.LEGGINGS, new Item.Properties()));
         this.netherWartBoots = ITEMS.register("nether_wart_boots", () -> new ArmorItem(ModArmorTiers.NETHER_WART, ArmorItem.Type.BOOTS, new Item.Properties()));
 
-        this.netherBrickHelmet = ITEMS.register("nether_brick_helmet", () -> new ArmorItem(ModArmorTiers.NETHER_BRICK, ArmorItem.Type.HELMET, new Item.Properties()));
-        this.netherBrickChestplate = ITEMS.register("nether_brick_chestplate", () -> new ArmorItem(ModArmorTiers.NETHER_BRICK, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
-        this.netherBrickLeggings = ITEMS.register("nether_brick_leggings", () -> new ArmorItem(ModArmorTiers.NETHER_BRICK, ArmorItem.Type.LEGGINGS, new Item.Properties()));
-        this.netherBrickBoots = ITEMS.register("nether_brick_boots", () -> new ArmorItem(ModArmorTiers.NETHER_BRICK, ArmorItem.Type.BOOTS, new Item.Properties()));
+        this.netherBricksHelmet = ITEMS.register("nether_bricks_helmet", () -> new ArmorItem(ModArmorTiers.NETHER_BRICKS, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.netherBricksChestplate = ITEMS.register("nether_bricks_chestplate", () -> new ArmorItem(ModArmorTiers.NETHER_BRICKS, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.netherBricksLeggings = ITEMS.register("nether_bricks_leggings", () -> new ArmorItem(ModArmorTiers.NETHER_BRICKS, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.netherBricksBoots = ITEMS.register("nether_bricks_boots", () -> new ArmorItem(ModArmorTiers.NETHER_BRICKS, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.redNetherBricksHelmet = ITEMS.register("red_nether_bricks_helmet", () -> new ArmorItem(ModArmorTiers.RED_NETHER_BRICKS, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.redNetherBricksChestplate = ITEMS.register("red_nether_bricks_chestplate", () -> new ArmorItem(ModArmorTiers.RED_NETHER_BRICKS, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.redNetherBricksLeggings = ITEMS.register("red_nether_bricks_leggings", () -> new ArmorItem(ModArmorTiers.RED_NETHER_BRICKS, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.redNetherBricksBoots = ITEMS.register("red_nether_bricks_boots", () -> new ArmorItem(ModArmorTiers.RED_NETHER_BRICKS, ArmorItem.Type.BOOTS, new Item.Properties()));
 
         this.warpedHelmet = ITEMS.register("warped_helmet", () -> new ArmorItem(ModArmorTiers.WARPED, ArmorItem.Type.HELMET, new Item.Properties()));
         this.warpedChestplate = ITEMS.register("warped_chestplate", () -> new ArmorItem(ModArmorTiers.WARPED, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
@@ -349,36 +359,36 @@ public class ModItems {
         return netherWartBoots;
     }
 
-    public RegistryObject<Item> getEndStoneHelmet() {
-        return endStoneHelmet;
+    public RegistryObject<Item> getNetherBricksHelmet() {
+        return netherBricksHelmet;
     }
 
-    public RegistryObject<Item> getEndStoneChestplate() {
-        return endStoneChestplate;
+    public RegistryObject<Item> getNetherBricksChestplate() {
+        return netherBricksChestplate;
     }
 
-    public RegistryObject<Item> getEndStoneLeggings() {
-        return endStoneLeggings;
+    public RegistryObject<Item> getNetherBricksLeggings() {
+        return netherBricksLeggings;
     }
 
-    public RegistryObject<Item> getEndStoneBoots() {
-        return endStoneBoots;
+    public RegistryObject<Item> getNetherBricksBoots() {
+        return netherBricksBoots;
     }
 
-    public RegistryObject<Item> getNetherBrickHelmet() {
-        return netherBrickHelmet;
+    public RegistryObject<Item> getRedNetherBricksHelmet() {
+        return redNetherBricksHelmet;
     }
 
-    public RegistryObject<Item> getNetherBrickChestplate() {
-        return netherBrickChestplate;
+    public RegistryObject<Item> getRedNetherBricksChestplate() {
+        return redNetherBricksChestplate;
     }
 
-    public RegistryObject<Item> getNetherBrickLeggings() {
-        return netherBrickLeggings;
+    public RegistryObject<Item> getRedNetherBricksLeggings() {
+        return redNetherBricksLeggings;
     }
 
-    public RegistryObject<Item> getNetherBrickBoots() {
-        return netherBrickBoots;
+    public RegistryObject<Item> getRedNetherBricksBoots() {
+        return redNetherBricksBoots;
     }
 
     public RegistryObject<Item> getWarpedHelmet() {
@@ -427,5 +437,21 @@ public class ModItems {
 
     public RegistryObject<Item> getBlackstoneBoots() {
         return blackstoneBoots;
+    }
+
+    public RegistryObject<Item> getEndStoneHelmet() {
+        return endStoneHelmet;
+    }
+
+    public RegistryObject<Item> getEndStoneChestplate() {
+        return endStoneChestplate;
+    }
+
+    public RegistryObject<Item> getEndStoneLeggings() {
+        return endStoneLeggings;
+    }
+
+    public RegistryObject<Item> getEndStoneBoots() {
+        return endStoneBoots;
     }
 }

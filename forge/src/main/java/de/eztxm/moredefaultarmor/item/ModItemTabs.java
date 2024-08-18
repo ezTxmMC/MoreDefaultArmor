@@ -80,10 +80,15 @@ public class ModItemTabs {
                     output.accept(MoreDefaultArmor.getItems().getNetherWartLeggings().get());
                     output.accept(MoreDefaultArmor.getItems().getNetherWartBoots().get());
 
-                    output.accept(MoreDefaultArmor.getItems().getNetherBrickHelmet().get());
-                    output.accept(MoreDefaultArmor.getItems().getNetherBrickChestplate().get());
-                    output.accept(MoreDefaultArmor.getItems().getNetherBrickLeggings().get());
-                    output.accept(MoreDefaultArmor.getItems().getNetherBrickBoots().get());
+                    output.accept(MoreDefaultArmor.getItems().getNetherBricksHelmet().get());
+                    output.accept(MoreDefaultArmor.getItems().getNetherBricksChestplate().get());
+                    output.accept(MoreDefaultArmor.getItems().getNetherBricksLeggings().get());
+                    output.accept(MoreDefaultArmor.getItems().getNetherBricksBoots().get());
+
+                    output.accept(MoreDefaultArmor.getItems().getRedNetherBricksHelmet().get());
+                    output.accept(MoreDefaultArmor.getItems().getRedNetherBricksChestplate().get());
+                    output.accept(MoreDefaultArmor.getItems().getRedNetherBricksLeggings().get());
+                    output.accept(MoreDefaultArmor.getItems().getRedNetherBricksBoots().get());
 
                     output.accept(MoreDefaultArmor.getItems().getWarpedHelmet().get());
                     output.accept(MoreDefaultArmor.getItems().getWarpedChestplate().get());
